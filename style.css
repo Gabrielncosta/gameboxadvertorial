@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.title {
+    font-weight: 700; 
+    font-size: 3.5em;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 2.3em;
+}
+
+.subtitle2 {
+    font-weight: 700;
+    font-size: 2em;
+}
+#nav1 {
+    display: none;
+    background-color: #c10707 !important;
+}
+
+#nav2 {
+    background-color: #c10707 !important; 
+}
+
+p {
+    font-size: 1.2em;
+}
+
+
+@media (max-width: 990px) {
+        #nav1 {
+            display: flex;
+    }
+}
+
+.pm {
+    margin: 0px;
+    padding: 0px;    
+}
+
+.velho {
+    font-weight: 700;
+    color: #1d1d1d;
+    background: url(images/image_20.png) no-repeat left 2px;
+    padding: 0 0 0 70px;
+    
+}
+
+.divbottom {
+    margin: 22px 0;
+}
+
+.btnstick {
+    font-weight: 700;
+    font-size: 1.7vw;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.checkout {
+    border: 1px solid rgb(52, 116, 255);
+    padding: 10px;
+}
+
+.mg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
